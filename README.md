@@ -1,5 +1,5 @@
 # ng2-mean-starter
-Starter for application based on MEAN stack with use of Angular 2
+Starter for application based on MEAN stack with use of Angular 2.
 
 ## MEAN ##
 - MongoDB (https://www.mongodb.com/)
@@ -21,6 +21,9 @@ Starter for application based on MEAN stack with use of Angular 2
 
 **Starting without TS and SASS compilers**
 > npm run server 
+
+**Default adress and port**
+> localhost:3000
 
 ## Config ##
 MongoDB accesses and files paths could be configured in `config.ts`
