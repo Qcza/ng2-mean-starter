@@ -58,7 +58,7 @@ Unit test file name pattern: `*.spec.ts`
 
 Run unit tests with `npm test` command
 
-## Additional packages ##
+## Used additional packages ##
 CSS framework 
 - Bootstrap 4 (http://v4-alpha.getbootstrap.com/)
 
@@ -79,7 +79,7 @@ Additional packages
 - bcrypt (https://github.com/ncb000gt/node.bcrypt.js)
 - path (https://github.com/jinder/path)
 
-## Dev packages ##
+## Used additional dev packages ##
 Unit tests
 - jasmine-node (https://github.com/mhevery/jasmine-node)
 - request (https://github.com/request/request)
