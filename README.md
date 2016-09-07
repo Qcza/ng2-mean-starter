@@ -28,7 +28,7 @@ MongoDB and files pathes configs could be set in `config.ts`
 **Default config**
 ```typescript
 // Mongo database URL
-export const dbUrl:string = 'localhost:27017/qcms';
+export const dbUrl:string = 'localhost:27017/test';
 
 // Mongo database login
 export const dbUser:string = undefined;
