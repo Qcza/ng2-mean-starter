@@ -7,38 +7,56 @@ Starter for application based on MEAN stack with use of Angular 2
 - Angular 2 (https://angular.io/)
 - NodeJS (https://nodejs.org/)
 
-## CONFIG ##
-MongoDB and files pathes configs could be set in *config.ts*
+## Installation ##
+> npm install
+
+**Compile TypeScript**
+> npm run tsc
+
+**Compile SASS**
+> npm run sass
+
+## Starting app ##
+> npm start
+
+**Starting without TS and SASS compilers**
+> npm run server 
+
+## Config ##
+MongoDB and files pathes configs could be set in `config.ts`
 
 **Default config**
+> 
+> // Mongo database URL
+> export const dbUrl:string = 'localhost:27017/qcms';
+> 
+> // Mongo database login
+> export const dbUser:string = undefined;
+> 
+> // Mongo database password
+> export const dbPwd:string = undefined;
+> 
+> // Images path
+> export const imgPath:string = 'static/public/images/'; // default: 'static/public/images/'
+> 
+> // Avatars path
+> export const avtrPath:string = 'static/public/images/avatars/'; // default: 'static/public/images/avatars/'
+> 
+> // Files path
+>  export const filePath:string = 'static/public/files/'; // default: 'static/public/files/'
+> 
 
-  // Mongo database URL
-  export const dbUrl:string = 'localhost:27017/qcms';
+## Seed database ##
+Database seed could be write in `helpers/sedd.ts`
 
-  // Mongo database login
-  export const dbUser:string = undefined;
+Run seed with `npm run seed` command
 
-  // Mongo database password
-  export const dbPwd:string = undefined;
+## Unit tests ##
+Unit tests with use of jasmine should be add in `spec/` folder.
 
-  // Images path
-  export const imgPath:string = 'static/public/images/'; // default: 'static/public/images/'
+Unit test file name pattern: `*.spec.ts`
 
-  // Avatars path
-  export const avtrPath:string = 'static/public/images/avatars/'; // default: 'static/public/images/avatars/'
-
-  // Files path
-  export const filePath:string = 'static/public/files/'; // default: 'static/public/files/'
-
-
-## SEED ##
-Database seed could be write in *helpers/sedd.ts*
-Run seed with *npm run seed* command
-
-## UNIT TESTS ##
-Unit tests with use of jasmine should be add in *spec/* folder.
-Unit test file name pattern: **.spec.ts*
-Run unit tests with *npm test* command
+Run unit tests with `npm test` command
 
 ## Additional packages ##
 CSS framework 
