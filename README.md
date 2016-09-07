@@ -23,7 +23,7 @@ Starter for application based on MEAN stack with use of Angular 2
 > npm run server 
 
 ## Config ##
-MongoDB and files pathes configs could be set in `config.ts`
+MongoDB accesses and files paths could be configured in `config.ts`
 
 **Default config**
 ```typescript
@@ -52,7 +52,7 @@ Database seed could be write in `helpers/sedd.ts`
 Run seed with `npm run seed` command
 
 ## Unit tests ##
-Unit tests with use of [Jasmine](http://jasmine.github.io/) should be add in `spec/` folder.
+Unit tests with use of [Jasmine](http://jasmine.github.io/) should be added in `spec/` folder.
 
 Unit test file name pattern: `*.spec.ts`
 
