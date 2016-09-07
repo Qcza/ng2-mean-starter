@@ -1,0 +1,10 @@
+**/*.js
+**/*.js.map
+**/*.d.ts
+/styles/*.css
+
+/npm-debug.log
+
+/.vscode
+/node_modules
+/typings
