@@ -9,7 +9,7 @@
     "server": "node server.js",
     "sass": "node-sass --source-comments app/styles/sass/ -o app/styles/",
     "postinstall": "typings install",
-    "test": "jasmine-node spec/",
+    "test": "jasmine-node --captureExceptions spec/",
     "seed": "node helpers/seed.js"
   },
   "repository": "https://github.com/Qcza/ng2-mean-starter.git",
