@@ -52,7 +52,7 @@ Database seed could be write in `helpers/sedd.ts`
 Run seed with `npm run seed` command
 
 ## Unit tests ##
-Unit tests with use of jasmine should be add in `spec/` folder.
+Unit tests with use of [Jasmine](http://jasmine.github.io/) should be add in `spec/` folder.
 
 Unit test file name pattern: `*.spec.ts`
 
