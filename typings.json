@@ -5,14 +5,14 @@
     "core-js": "registry:dt/core-js#0.0.0+20160725163759",
     "cors": "registry:dt/cors#0.0.0+20160708202709",
     "express": "registry:dt/express#4.0.0+20160708185218",
-    "express-serve-static-core": "registry:dt/express-serve-static-core#4.0.0+20160805091045",
+    "express-serve-static-core": "registry:dt/express-serve-static-core#4.0.0+20160829034835",
     "form-data": "registry:dt/form-data#0.0.0+20160724024111",
     "jasmine": "registry:dt/jasmine#2.2.0+20160621224255",
-    "jasmine-node": "registry:dt/jasmine-node#1.14.5+20160316155526",
+    "jasmine-node": "registry:dt/jasmine-node#1.14.5+20160818175431",
     "mime": "registry:dt/mime#0.0.0+20160316155526",
     "mongodb": "registry:dt/mongodb#2.1.0+20160602142941",
     "multer": "registry:dt/multer#0.0.0+20160829120954",
-    "node": "registry:dt/node#6.0.0+20160815222444",
+    "node": "registry:dt/node#6.0.0+20160907103612",
     "request": "registry:dt/request#0.0.0+20160726020908",
     "serve-static": "registry:dt/serve-static#0.0.0+20160606155157"
   }
