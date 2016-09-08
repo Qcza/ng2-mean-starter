@@ -19,27 +19,27 @@ export class AppService {
   //   return this.http.get(this.customUrl , options).map(this.extractData).catch(this.handleError);
   // }
 
-  // getTemplate (id:string): Observable<any> {
+  // getCustoms (id:string): Observable<any> {
   //   let headers = new Headers({'Auth': 'basic'});
   //   let options = new RequestOptions({headers: headers});
   //   return this.http.get(this.customUrl  + '/' +id, options).map(this.extractData).catch(this.handleError);
   // }
 
-  // postTemplate (custom:any): Observable<any> {
+  // postCustom (custom:any): Observable<any> {
   //   let body = JSON.stringify(custom);
   //   let headers = new Headers({'Content-type': 'application/json', 'Auth': 'basic'});
   //   let options = new RequestOptions({headers: headers});
   //   return this.http.post(this.customUrl, body, options).map(this.extractData).catch(this.handleError);
   // }
 
-  // putTemplate (custom:any): Observable<any> {
+  // putCustom (custom:any): Observable<any> {
   //   let body = JSON.stringify(custom);
   //   let headers = new Headers({'Content-type': 'application/json', 'Auth': 'basic'});
   //   let options = new RequestOptions({headers: headers});
   //   return this.http.put(this.customUrl+'/'+custom.id, body, options).map(this.extractData).catch(this.handleError);
   // }
 
-  // deleteTemplate (custom:any): Observable<any> {
+  // deleteCustom(custom:any): Observable<any> {
   //   let headers = new Headers({'Auth': 'basic'});
   //   let options = new RequestOptions({headers: headers});
   //   return this.http.delete(this.customUrl+'/'+custom.id, options).map(this.extractData).catch(this.handleError);
