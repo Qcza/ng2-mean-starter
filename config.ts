@@ -17,4 +17,4 @@ export const avtrPath:string = 'static/public/images/avatars/'; // default: 'sta
 export const filePath:string = 'static/public/files/'; // default: 'static/public/files/'
 
 // Port
-export const port:number = process.env.PORT || 300
+export const port:number = process.env.PORT || 3000

@@ -46,7 +46,7 @@ export const avtrPath:string = 'static/public/images/avatars/';
 export const filePath:string = 'static/public/files/';
 
 // Port
-export const port:number = process.env.PORT || 300
+export const port:number = process.env.PORT || 3000
 ```
 
 ## Seed database ##
