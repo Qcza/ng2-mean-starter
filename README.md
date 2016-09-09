@@ -20,10 +20,7 @@ Starter for application based on MEAN stack with use of Angular 2.
 > npm start
 
 **Starting without TS and SASS compilers**
-> npm run server 
-
-**Default adress and port**
-> localhost:3000
+> npm run server
 
 ## Config ##
 MongoDB accesses and files paths could be configured in `config.ts`
