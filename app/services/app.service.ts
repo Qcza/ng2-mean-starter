@@ -9,10 +9,8 @@ import 'rxjs/add/operator/catch';
 export class AppService {
   constructor (private http: Http) {  }
 
-  private domain = 'http://localhost:3000';
-
   // // Custom services
-  // private customUrl = this.domain + '/custom';
+  // private customUrl = /custom';
   // getCustom(): Observable<any> {
   //   let headers = new Headers({'Auth': 'basic'});
   //   let options = new RequestOptions({headers: headers});

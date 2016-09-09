@@ -94,4 +94,4 @@ app.use('/files', express.static(__dirname + '/' + config.filePath)); // FILES
 // })
 
 
-app.listen(3000);
+app.listen(config.port);
