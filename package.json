@@ -7,7 +7,7 @@
     "tsc": "tsc",
     "tsc:w": "tsc -w",
     "server": "node server.js",
-    "sass": "node-sass --source-comments app/styles/sass/ -o app/styles/",
+    "sass": "node-sass --watch --source-comments app/styles/sass/ -o app/styles/",
     "postinstall": "typings install",
     "test": "jasmine-node --captureExceptions spec/",
     "seed": "node helpers/seed.js"
