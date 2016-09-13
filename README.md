@@ -1,5 +1,9 @@
 # ng2-mean-starter
+[![dependencies Status](https://david-dm.org/Qcza/ng2-mean-starter/status.svg)](https://david-dm.org/Qcza/ng2-mean-starter)
+[![devDependencies Status](https://david-dm.org/Qcza/ng2-mean-starter/dev-status.svg)](https://david-dm.org/Qcza/ng2-mean-starter?type=dev)
+
 Starter for application based on MEAN stack with use of Angular 2.
+
 
 ## MEAN ##
 - MongoDB (https://www.mongodb.com/)
