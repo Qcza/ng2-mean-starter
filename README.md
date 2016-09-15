@@ -65,6 +65,16 @@ Unit test file name pattern: `*.spec.ts`
 
 Run unit tests with `npm test` command
 
+## Create new component ##
+To create new component you can run bash script `./newcomponent.sh <name>` from main directory
+
+It should create files:
+```
+app/components/<name>.component.ts
+app/templates/<name>.component.html
+app/styles/sass/<name>components.sass
+```
+
 ## Used additional packages ##
 CSS framework 
 - Bootstrap 4 (http://v4-alpha.getbootstrap.com/)
