@@ -9,6 +9,7 @@
     "form-data": "registry:dt/form-data#0.0.0+20160724024111",
     "jasmine": "registry:dt/jasmine#2.2.0+20160621224255",
     "jasmine-node": "registry:dt/jasmine-node#1.14.5+20160818175431",
+    "lodash": "registry:dt/lodash#4.14.0+20160830145422",
     "mime": "registry:dt/mime#0.0.0+20160316155526",
     "mongodb": "registry:dt/mongodb#2.1.0+20160602142941",
     "multer": "registry:dt/multer#0.0.0+20160829120954",

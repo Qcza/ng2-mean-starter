@@ -3,11 +3,12 @@
   "version": "1.0.0",
   "description": "ng2-mean-starter",
   "scripts": {
-    "start": "concurrently \"npm run sass\" \"npm run tsc:w\" \"npm run server\" ",
+    "start": "concurrently \"npm run sass:w\" \"npm run tsc:w\" \"npm run server\" ",
     "tsc": "tsc",
     "tsc:w": "tsc -w",
     "server": "node server.js",
-    "sass": "node-sass --watch --source-comments app/styles/sass/ -o app/styles/",
+    "sass": "node-sass --source-comments app/styles/sass/ -o app/styles/",
+    "sass:w": "node-sass --watch --source-comments app/styles/sass/ -o app/styles/",
     "postinstall": "typings install",
     "test": "jasmine-node --captureExceptions spec/",
     "seed": "node helpers/seed.js"
@@ -41,6 +42,7 @@
     "core-js": "^2.4.1",
     "cors": "^2.8.0",
     "express": "^4.14.0",
+    "lodash": "^4.15.0",
     "mongodb": "^2.2.5",
     "multer": "^1.2.0",
     "ng2-cookies": "^1.0.2",

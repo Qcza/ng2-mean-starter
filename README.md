@@ -20,7 +20,7 @@ Starter for application based on MEAN stack with use of Angular 2.
 **Compile SASS**
 > npm run sass
 
-## Starting app ##
+## Starting app with TS and SASS watchers ##
 > npm start
 
 **Starting without TS and SASS compilers**
@@ -94,6 +94,7 @@ Additional Express packages
 Additional packages
 - bcrypt (https://github.com/ncb000gt/node.bcrypt.js)
 - path (https://github.com/jinder/path)
+- lodash (https://github.com/lodash/lodash)
 
 ## Used additional dev packages ##
 Unit tests
