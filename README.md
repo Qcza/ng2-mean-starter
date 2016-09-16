@@ -20,7 +20,8 @@ Starter for application based on MEAN stack with use of Angular 2.
 **Compile SASS**
 > npm run sass
 
-## Starting app with TS and SASS watchers ##
+## Starting app ##
+**Starting with TS and SASS watchers**
 > npm start
 
 **Starting without TS and SASS compilers**
