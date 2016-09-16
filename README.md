@@ -77,13 +77,12 @@ app/styles/sass/<name>components.sass
 
 ## Used additional packages ##
 CSS framework 
-- none
+- Bootstrap 4 (http://v4-alpha.getbootstrap.com/)
 
 Icons package
 - Font Awesome (http://fontawesome.io/)
 
 Additional ng2 packages
-- ng-bootstrap (https://ng-bootstrap.github.io/#/home)
 - ng2-cookies (https://github.com/BCJTI/ng2-cookies)
 - ng2-uploader (https://github.com/jkuri/ng2-uploader)
 
