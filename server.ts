@@ -68,8 +68,8 @@ app.use(bodyParser.json())
 app.use('/', express.static(__dirname));
 app.use('/css', express.static(__dirname + '/app/styles/')) // STYLES
 app.use('/css', express.static(__dirname + '/node_modules/bootstrap/dist/css/')); // BOOTSRTAP CSS
-app.use('/css', express.static(__dirname + '/static/font-awesome/css/')); // FONT AWESOME CSS
-app.use('/fonts', express.static(__dirname + '/static/font-awesome/fonts/')); // FONT AWESOME FONTS
+app.use('/css', express.static(__dirname + '/node_modules/font-awesome/css/')); // FONT AWESOME CSS
+app.use('/fonts', express.static(__dirname + '/node_modules/font-awesome/fonts/')); // FONT AWESOME FONTS
 app.use('/img', express.static(__dirname + '/' + config.avtrPath)); // AVATARS
 app.use('/img', express.static(__dirname + '/' + config.imgPath)); // IMAGES
 app.use('/files', express.static(__dirname + '/' + config.filePath)); // FILES
