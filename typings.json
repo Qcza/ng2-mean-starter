@@ -2,17 +2,17 @@
   "globalDependencies": {
     "bcrypt": "registry:dt/bcrypt#0.0.0+20160316155526",
     "body-parser": "registry:dt/body-parser#0.0.0+20160619023215",
-    "core-js": "registry:dt/core-js#0.0.0+20160725163759",
+    "core-js": "registry:dt/core-js#0.0.0+20160914114559",
     "cors": "registry:dt/cors#0.0.0+20160708202709",
     "express": "registry:dt/express#4.0.0+20160708185218",
-    "express-serve-static-core": "registry:dt/express-serve-static-core#4.0.0+20160829034835",
+    "express-serve-static-core": "registry:dt/express-serve-static-core#4.0.0+20160914120416",
     "form-data": "registry:dt/form-data#0.0.0+20160724024111",
     "jasmine": "registry:dt/jasmine#2.2.0+20160621224255",
     "jasmine-node": "registry:dt/jasmine-node#1.14.5+20160818175431",
     "mime": "registry:dt/mime#0.0.0+20160316155526",
     "mongodb": "registry:dt/mongodb#2.1.0+20160602142941",
     "multer": "registry:dt/multer#0.0.0+20160829120954",
-    "node": "registry:dt/node#6.0.0+20160907103612",
+    "node": "registry:dt/node#6.0.0+20160915134512",
     "request": "registry:dt/request#0.0.0+20160726020908",
     "serve-static": "registry:dt/serve-static#0.0.0+20160606155157"
   }

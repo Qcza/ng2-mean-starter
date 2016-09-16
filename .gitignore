@@ -3,7 +3,7 @@
 **/*.d.ts
 /app/styles/*.css
 
-/npm-debug.log
+/npm-debug.log*
 
 /.vscode
 /node_modules

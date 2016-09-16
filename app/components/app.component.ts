@@ -7,7 +7,6 @@ import { Cookie } from 'ng2-cookies/ng2-cookies';
   providers: [AppService],
   templateUrl: 'app/templates/app.component.html',
   styleUrls: ['app/styles/app.component.css'],
-  // directives: []
 })
 
 export class AppComponent { 

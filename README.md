@@ -77,9 +77,9 @@ app/styles/sass/<name>components.sass
 
 ## Used additional packages ##
 CSS framework 
-- Bootstrap 4 (http://v4-alpha.getbootstrap.com/)
+- none
 
-Fonts package and css
+Icons package
 - Font Awesome (http://fontawesome.io/)
 
 Additional ng2 packages
