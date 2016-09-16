@@ -1,6 +1,7 @@
 **/*.js
 **/*.js.map
 **/*.d.ts
+!systemjs.config.js
 /app/styles/*.css
 
 /npm-debug.log*
