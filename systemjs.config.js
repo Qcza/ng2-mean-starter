@@ -26,7 +26,9 @@
       'angular2-in-memory-web-api': 'npm:angular2-in-memory-web-api',
       'ng2-cookies':                'npm:ng2-cookies',
       'ng2-uploader':               'npm:ng2-uploader',
-      'lodash':                     'npm:lodash'
+      'lodash':                     'npm:lodash',
+      '@ng-bootstrap':              'npm:@ng-bootstrap',
+      '@ng-bootstrap/ng-bootstrap': 'npm:@ng-bootstrap/ng-bootstrap/bundles'
     },
     // packages tells the System loader how to load when no filename and/or no extension
     packages: {
@@ -50,6 +52,10 @@
       'lodash': { 
         main: './index.js', 
         defaultExtension: 'js' 
+      },
+      '@ng-bootstrap/ng-bootstrap': {
+        main: './ng-bootstrap.js',
+        defaultExtension: 'js'
       }
     }
   });

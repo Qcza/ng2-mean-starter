@@ -86,6 +86,7 @@ Icons package
 Additional ng2 packages
 - ng2-cookies (https://github.com/BCJTI/ng2-cookies)
 - ng2-uploader (https://github.com/jkuri/ng2-uploader)
+- ng-bootstrap (https://ng-bootstrap.github.io/)
 
 Additional Express packages
 - multer (https://github.com/expressjs/multer)
