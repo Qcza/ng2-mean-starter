@@ -55,7 +55,7 @@ export const port:number = process.env.PORT || 3000;
 ```
 
 ## Seed database ##
-Database seed could be write in `helpers/sedd.ts`
+Database seed could be write in `helpers/seed.ts`
 
 Run seed with `npm run seed` command
 
