@@ -10,9 +10,9 @@ import { AppComponent } from '../components/app.component';
 @NgModule({
   imports: [ 
     BrowserModule, 
-    FormsModule, 
+    FormsModule,
     HttpModule,
-    NgbModule 
+    NgbModule.forRoot()
   ],
   declarations: [ 
     AppComponent, 
